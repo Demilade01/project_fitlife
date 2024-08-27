@@ -38,10 +38,10 @@
   --ff-rubik: 'Rubik', sans-serif;
 
   --fs-1: 1.4rem;
-  --fs-2: 3rem;
+  --fs-2: 2rem;
   --fs-3: 2.5rem;
-  --fs-4: 2rem;
-  --fs-5: 1.8rem;
+  --fs-4: 0.9rem;
+  --fs-5: 0.7rem;
   --fs-6: 0.6rem;
 
   --fw-900: 900;
@@ -449,6 +449,35 @@ html {
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
+
+.about { overflow: hidden;}
+
+.about-banner { margin-block-end: 50px;}
+
+.about-coach {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-block-end: 30px;
+}
+
+.about .coach-avatar {
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.about .coach-name {
+  font-weight: var(--fw-700);
+  margin-block-end: 5px;
+}
+
+.about .coach-title { font-size: var(--fs-6);}
+
+.about .btn-primary:is(:hover, :focus) {
+  background-color: var(--rich-black-fogra-29-1);
+  color: var(--white);
+  box-shadow: none;
+}
 
 
 
